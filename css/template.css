@@ -1,0 +1,158 @@
+#search_banner {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#search_banner .search_slider .slide-1, #search_banner .search_slider .slide-2, #search_banner .search_slider .slide-3, #search_banner .search_slider .slide-4, #search_banner .search_slider .slide-5, #search_banner .search_slider .slide-6, #search_banner .search_slider .slide-7, #search_banner .search_slider .slide-8, #search_banner .search_slider .slide-9, #search_banner .search_slider .slide-10 {
+  background: url("../images/templatebg/bg_7.jpg") center center/cover no-repeat;
+  min-height: 450px;
+}
+
+#search_banner .search_slider .slide-2 {
+  background: url("../images/templatebg/bg_2.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-3 {
+  background: url("../images/templatebg/bg_3.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-4 {
+  background: url("../images/templatebg/bg_4.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-5 {
+  background: url("../images/templatebg/bg_6.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-6 {
+  background: url("../images/templatebg/bg_1.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-7 {
+  background: url("../images/templatebg/bg_8.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-8 {
+  background: url("../images/templatebg/bg_9.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-9 {
+  background: url("../images/templatebg/bg_5.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_slider .slide-10 {
+  background: url("../images/templatebg/bg_10.jpg") center center/cover no-repeat;
+}
+
+#search_banner .search_content_full {
+  position: absolute;
+  z-index: 999;
+  top: 90px;
+  left: 0px;
+  width: 100%;
+}
+
+#search_banner .search_content_full .search_content_inner h1 {
+  font-size: 38px;
+  text-shadow: 1px 6px 7px rgba(0, 0, 0, 0.83);
+  font-family: fonts(secondary);
+  margin-bottom: 8px;
+}
+
+#search_banner .search_content_full .search_content_inner h5 {
+  font-size: 22px;
+  line-height: 34px;
+  text-shadow: 1px 6px 7px rgba(0, 0, 0, 0.83);
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar {
+  max-width: 768px;
+  margin: auto;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form {
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 16px 0px;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-prepend {
+  position: relative;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-prepend::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 2px;
+  height: 60%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #cfd9e0;
+  content: '';
+  z-index: 1111;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-prepend .btn.show {
+  outline: 0 !important;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-prepend button.btn-outline-secondary {
+  border: none;
+  color: #000;
+  background-color: inherit;
+  outline: 0;
+  min-width: 180px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-prepend button.btn-outline-secondary.dropdown-toggle::after {
+  margin-left: 20px;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group input.form-control {
+  border: none;
+  min-height: 50px;
+  padding: 12px 8px;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-append button.btn-outline-secondary {
+  border: none;
+  color: #000;
+  min-width: 60px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-append button.btn-outline-secondary:hover {
+  background-color: color(primary);
+  color: #fff;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar #templete_search_form .input-group .input-group-append button.btn-outline-secondary:focus {
+  outline: none !important;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar p {
+  margin-bottom: 25px;
+}
+
+#search_banner .search_content_full .search_content_inner .search_bar div > a {
+  margin-left: 20px;
+}
+
+.filter_btn .btn-outline {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  background: rgba(240, 240, 240, 0.3);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  margin: 0 5px;
+}
+
+.filter_btn .btn-outline.active, .filter_btn .btn-outline:hover {
+  background: rgba(173, 179, 255, 0.4);
+}

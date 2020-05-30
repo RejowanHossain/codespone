@@ -1,0 +1,132 @@
+%contact{
+  @include section(60px,null,null);
+
+  @include mobile {
+    padding: 15px 0
+  }
+  .container{
+ 
+    .contact-meta{
+      .heading-title{
+        & > span{
+          font-size: 16px;
+          font-weight: normal;
+          margin-bottom: 10px;
+          display: block;
+          color: color(primary);
+        }
+        h2{
+          line-height: 1;
+          font-weight: normal;
+          font-size: 48px;
+        }
+      }
+      .social-icons{
+        li{
+          display: inline-block;
+          &:first-child{
+            margin-left: 0;
+          }
+          a{
+            height: 30px;
+            line-height: 30px;
+            width: 30px;
+            font-size: 14px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            margin: 0 1px;
+            text-align: center;
+            display: block;
+            color: #26313c;
+            position: relative;
+            z-index: 1;
+            border: 1px solid #7c7c7c;
+            transition: all 0.2s linear;
+
+            &:hover {
+              background: color(primary);
+              color: #fff;
+              border: 1px solid transparent;
+            }
+          }
+        }
+      }
+    }
+
+    .heading-title{
+
+      .getin_form{
+        .form-group{
+          label{
+            position: relative;
+            font-size: 12px;
+            font-weight: 500;
+            padding-left: 10px;
+            min-height: 20px;
+            cursor: pointer;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+        }
+        .form-control{
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          color: #444;
+          font-size: 0.875rem;
+          border: 1px solid #ececec;
+        }
+      }
+    }
+
+    &.whitebox{
+
+
+
+      .widget{
+        background: #fff;
+        -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+        padding: 40px 15px;
+        min-height: 200px;
+        display: grid;
+        place-items: center;
+
+        @include mobile {
+          min-height: auto;
+        }
+
+
+        .contact-box{
+
+          .icon-contact{
+            margin-bottom: 20px;
+            line-height: 1;
+            font-size: 30px;
+            color: color(primary);
+            // mb10px
+
+            i{
+              margin-bottom: 10px;
+            }
+          }
+          a{
+            color: #26313c;
+          }
+        }
+      }
+
+      @include mobile {
+        .widget.top60 {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+#contact{
+  @extend %contact;
+}

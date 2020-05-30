@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>codespone</title>
+  <link rel='shortcut icon' href='images/logo' type='image/x-icon'>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/parallax.js"></script>
+</head>
+<body>
+
+<!-- === Desktop header section start === -->
+<header class="d-lg-block d-none header shadow-sm w-100">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="codespone logo" class="img-fluid dark-logo d-none">
+      <img src="images/logo-white.png" alt="codespone logo" class="img-fluid white-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="template.html">Templates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="s-link">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </nav>
+
+</header>
+<!-- ===//end of Desktop header section === -->
+
+
+<!--=== Mobile header start ===-->
+
+<div id="sideNav">
+  <div class="d-flex justify-content-between align-items-center">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-reply"></i></a>
+
+    <a href="#" class="btn login-btn">Login</a>
+  </div>
+  <nav>
+    <ul class="p-0" id="mainSideNav">
+      <li class="active nav-li">
+        <a href="index.html"><i class="icon-home icons"></i> Home</a>
+      </li>
+      <li class="nav-li">
+        <a href="about.html"><i class="icon-user-following icons"></i> About Us</a>
+      </li>
+      <li class="nav-li">
+        <a href="index.html#service"><i class="icon-diamond icons"></i>Service</a>
+      </li>
+      <li class="nav-li">
+        <a href="template.html"><i class="icon-grid icons"></i>Free Templates</a>
+      </li>
+      <li class="nav-li">
+        <a href="blog.html"><i class="icon-book-open icons"></i>Blog</a>
+      </li>
+      <li class="nav-li">
+        <a href="contact.html"><i class="icon-bubbles icons"></i>Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="s-link">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <p class="copyright">Copyright © 2020 Codespone Company All rights reserved.</p>
+
+</div>
+
+<header class="d-lg-none d-block mobile-header shadow-sm">
+  <div class="navbar">
+    <a href="index.html">
+      <img src="images/logo.png" class="logo" alt="logo" class="img-fluid">
+    </a>
+    <button class="openbtn btn" onclick="openNav()"><i class="icon-list icons"></i></button> 
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("sideNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("sideNav").style.width = "0";
+    }
+  </script>
+  
+</header>
+<!--=== Mobile header end ===-->
+
+
+<!-- === banner section start === -->
+<section class="banner need_margin" id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 col-lg-10"> 
+        <div class="banner-content text-white ">
+          <h1><span class="typeJs">Build Your Dream Website</span></h1>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, laboriosam praesentium. Possimus earum eveniet nostrum blanditiis velit excepturi eaque, incidunt iste molestiae doloremque accusantium 
+          </p>
+          <a href="#" class="primary_btn">Get Started</a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-parallax">
+      <ul id="scene">
+      <li class="layer" data-depth=".1"><img src="images/Group 1.png" class="wow fadeInUp"></li>
+      <li class="layer" data-depth=".2"><img src="images/Group 2.png" class="wow fadeInUp"></li>
+      <li class="layer" data-depth=".3"><img src="images/Group 3.png" class="wow fadeInUp"></li>
+      <li class="layer" data-depth=".4"><img src="images/Group 4.png" class="wow fadeInUp"></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- ===//end of banner section === -->
+
+
+<!-- === Buisness Partner section start === -->
+<section id="partner" class="shadow-sm">
+  <div class="container">
+    <!-- partner Brand goes here -->
+    <div class="row partner-slide">
+      <div class="col-12 text-center">
+        <img src="images/Client/airbnb.svg" alt="" class="img-fluid m-auto">
+      </div>
+      <div class="col-12 text-center">
+        <img src="images/Client/automatic.svg" alt="" class="img-fluid m-auto">
+      </div>
+      <div class="col-12 text-center">
+        <img src="images/Client/bissell.svg" alt="" class="img-fluid m-auto">
+      </div>
+      <div class="col-12 text-center">
+        <img src="images/Client/coty.svg" alt="" class="img-fluid m-auto">
+      </div>
+      <div class="col-12 text-center">
+        <img src="images/Client/ge.svg" alt="" class="img-fluid m-auto">
+      </div>
+      <div class="col-12 text-center">
+        <img src="images/Client/microsoft.svg" alt="" class="img-fluid m-auto">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===//end of Buisness Partner section === -->
+
+<!-- === service section start === -->
+<section id="service">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-6 m-auto">
+        <div class="s-heading text-center">
+          <h2 class="">Service</h2>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolores?</span>
+        </div>
+      </div>
+    </div>
+    <!-- service box goes here -->
+    <div class="row service-boxes">
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+   
+  </div>
+</section>
+<!-- ===//end of service section === -->
+
+
+<!-- === About us section start === -->
+<section id="About-us">
+  <div class="container">
+    <div class="row mb-mb-5 mb-4">
+      <div class="col-md-6 m-auto">
+        <div class="s-heading text-center">
+          <h2 class="">About us</h2>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolores?</span>
+        </div>
+      </div>
+    </div>
+    <!-- About Content Goes Here -->
+    <div class="row About">
+      <div class="col-md-6 col-12">
+        <div class="abt-img">
+          <img src="/images/About/abt-1.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-6 col-12">
+        <div class="our-faq-wrapper">
+        <!-- Here to start -->
+        <div class="accordion" id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Frequently Asked Questions ?</button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, numquam quis perferendis beatae? Alias reprehenderit ut voluptatem mollitia sit aut eum ratione laudantium soluta ipsam adipisci, molestias delectus iure. Recusandae?</p> </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Frequently Asked Questions ? </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, numquam quis perferendis beatae? Alias reprehenderit ut voluptatem mollitia sit aut eum ratione laudantium soluta ipsam adipisci, molestias delectus iure. Recusandae?</p> </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Frequently Asked Questions ? </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, numquam quis perferendis beatae? Alias reprehenderit ut voluptatem mollitia sit aut eum ratione laudantium soluta ipsam adipisci, molestias delectus iure. Recusandae?</p></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Frequently Asked Questions ? </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, numquam quis perferendis beatae? Alias reprehenderit ut voluptatem mollitia sit aut eum ratione laudantium soluta ipsam adipisci, molestias delectus iure. Recusandae?</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-md-left text-center">
+        <a href="about.html" class="btn primary_btn">Read More</a>
+      </div>
+</div>
+
+      </div>
+    </div>
+  
+</section>
+<!-- ===//end of About us section === -->
+
+
+<!-- === Price  section start === -->
+<section id="generic_price_table">
+	<div class="container">
+    <div class="row mb-md-5 mb-4">
+      <div class="col-md-6 m-auto">
+        <div class="s-heading text-center ">
+          <h2 class="">Price Plan</h2>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolores?</span>
+        </div>
+      </div>
+    </div>
+			<!--BLOCK ROW START-->
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-4">
+					<!--PRICE CONTENT START-->
+					<div class="generic_content clearfix shadow">
+						<!--HEAD PRICE DETAIL START-->
+						<div class="generic_head_price clearfix">
+							<!--HEAD CONTENT START-->
+							<div class="generic_head_content clearfix">
+								<!--HEAD START-->
+								<div class="head_bg"></div>
+								<div class="head">
+									<span>Basic</span>
+								</div>
+								<!--//HEAD END-->
+							</div>
+							<!--//HEAD CONTENT END-->
+							<!--PRICE START-->
+							<div class="generic_price_tag clearfix">	
+								<span class="price">
+								<span class="sign">$</span>
+								<span class="currency">99</span>
+								<span class="cent">.99</span>
+								<span class="month">/MON</span>
+								</span>
+							</div>
+							<!--//PRICE END-->
+						</div>
+						<!--//HEAD PRICE DETAIL END-->
+						<!--FEATURE LIST START-->
+						<div class="generic_feature_list">
+							<ul>
+								<li><span>2GB</span> Bandwidth</li>
+								<li><span>150GB</span> Storage</li>
+								<li><span>12</span> Accounts</li>
+								<li><span>7</span> Host Domain</li>
+								<li><span>24/7</span> Support</li>
+							</ul>
+						</div>
+						<!--//FEATURE LIST END-->
+						<!--BUTTON START-->
+						<div class="generic_price_btn clearfix">
+							<a class="" href="">Sign up</a>
+						</div>
+						<!--//BUTTON END-->
+					</div>
+					<!--//PRICE CONTENT END-->
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<!--PRICE CONTENT START-->
+					<div class="generic_content active clearfix shadow">
+						<!--HEAD PRICE DETAIL START-->
+						<div class="generic_head_price clearfix">
+							<!--HEAD CONTENT START-->
+							<div class="generic_head_content clearfix">
+								<!--HEAD START-->
+								<div class="head_bg"></div>
+								<div class="head">
+									<span>Standard</span>
+								</div>
+								<!--//HEAD END-->
+							</div>
+							<!--//HEAD CONTENT END-->
+							<!--PRICE START-->
+							<div class="generic_price_tag clearfix">	
+								<span class="price">
+								<span class="sign">$</span>
+								<span class="currency">199</span>
+								<span class="cent">.99</span>
+								<span class="month">/MON</span>
+								</span>
+							</div>
+							<!--//PRICE END-->
+						</div>
+						<!--//HEAD PRICE DETAIL END-->
+						<!--FEATURE LIST START-->
+						<div class="generic_feature_list">
+							<ul>
+								<li><span>5GB</span> Bandwidth</li>
+								<li><span>500GB</span> Storage</li>
+								<li><span>20</span> Accounts</li>
+								<li><span>15</span> Host Domain</li>
+								<li><span>24/7</span> Support</li>
+							</ul>
+						</div>
+						<!--//FEATURE LIST END-->
+						<!--BUTTON START-->
+						<div class="generic_price_btn clearfix">
+							<a class="" href="">Sign up</a>
+						</div>
+						<!--//BUTTON END-->
+					</div>
+					<!--//PRICE CONTENT END-->
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<!--PRICE CONTENT START-->
+					<div class="generic_content clearfix shadow">
+						<!--HEAD PRICE DETAIL START-->
+						<div class="generic_head_price clearfix">
+							<!--HEAD CONTENT START-->
+							<div class="generic_head_content clearfix">
+								<!--HEAD START-->
+								<div class="head_bg"></div>
+								<div class="head">
+									<span>Unlimited</span>
+								</div>
+								<!--//HEAD END-->
+							</div>
+							<!--//HEAD CONTENT END-->
+							<!--PRICE START-->
+							<div class="generic_price_tag clearfix">	
+								<span class="price">
+								<span class="sign">$</span>
+								<span class="currency">299</span>
+								<span class="cent">.99</span>
+								<span class="month">/MON</span>
+								</span>
+							</div>
+							<!--//PRICE END-->
+						</div>
+						<!--//HEAD PRICE DETAIL END-->
+						<!--FEATURE LIST START-->
+						<div class="generic_feature_list">
+							<ul>
+								<li><span>Unlimited</span> Bandwidth</li>
+								<li><span>Unlimited</span> Storage</li>
+								<li><span>Unlimited</span> Accounts</li>
+								<li><span>Unlimited</span> Host Domain</li>
+								<li><span>24/7</span> Support</li>
+							</ul>
+						</div>
+						<!--//FEATURE LIST END-->
+						<!--BUTTON START-->
+						<div class="generic_price_btn clearfix">
+							<a class="" href="">Sign up</a>
+						</div>
+						<!--//BUTTON END-->
+					</div>
+					<!--//PRICE CONTENT END-->
+				</div>
+			</div>
+		</div>
+</section>
+<!-- ===//end of Price  section === -->
+
+<!-- === Happy customer section start === -->
+<section id="happy_customer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 bottom30">
+        <h2 class="text-uppercase">Over then <strong>7000</strong> Happy Customer</h2>
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-sm-6 mb-sm-0 mb-4">
+            <i class="fal fa-chart-line"></i>
+            <h4 class="bottom10">Good Sale &amp; Marketing</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam power nonummy nibh tempor cum soluta nobis eleifend.</p>
+          </div>
+          <div class="col-sm-6 ">
+            <i class="fal fa-home-lg"></i>
+            <h4 class="bottom10">Good Sale &amp; Marketing</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam power nonummy nibh tempor cum soluta nobis eleifend.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===//end of Happy customer section === -->
+
+<!-- === Blog section start === -->
+<section id="blog" class="py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-6 m-auto">
+        <div class="s-heading text-center">
+          <h2 class="">Blogs</h2>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolores?</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row blog-content">
+      <div class="col-md-12">
+        <div class="single-blog">
+          <div class="blog-time">
+            <img src="/images/blog/blog-three.jpg" alt="blog1">
+            <a href="#">9 March</a>
+          </div>
+          <div class="blog-info">
+            <div class="admin">
+              <a href="#" id="">
+                <i class="fas fa-users"></i>
+              </a>
+            </div>
+            <div class="comment">
+              <a href="#">
+                <i class="fas fa-heart"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-comments"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog-text">
+            <h3>Blog Title Here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium quas velit. Consequatur, sed reprehenderit?</p>
+            <a href="blog_inner.html" class="btn primary_btn btn-sm">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="single-blog">
+          <div class="blog-time">
+            <img src="/images/blog/blog-three.jpg" alt="blog1">
+            <a href="#">9 March</a>
+          </div>
+          <div class="blog-info">
+            <div class="admin">
+              <a href="#" id="">
+                <i class="fas fa-users"></i>
+              </a>
+            </div>
+            <div class="comment">
+              <a href="#">
+                <i class="fas fa-heart"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-comments"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog-text">
+            <h3>Blog Title Here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium quas velit. Consequatur, sed reprehenderit?</p>
+            <a href="blog_inner.html" class="btn primary_btn btn-sm">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="single-blog">
+          <div class="blog-time">
+            <img src="/images/blog/blog-three.jpg" alt="blog1">
+            <a href="#">9 March</a>
+          </div>
+          <div class="blog-info">
+            <div class="admin">
+              <a href="#" id="">
+                <i class="fas fa-users"></i>
+              </a>
+            </div>
+            <div class="comment">
+              <a href="#">
+                <i class="fas fa-heart"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-comments"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog-text">
+            <h3>Blog Title Here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium quas velit. Consequatur, sed reprehenderit?</p>
+            <a href="blog_inner.html" class="btn primary_btn btn-sm">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="single-blog">
+          <div class="blog-time">
+            <img src="/images/blog/blog-three.jpg" alt="blog1">
+            <a href="#">9 March</a>
+          </div>
+          <div class="blog-info">
+            <div class="admin">
+              <a href="#" id="">
+                <i class="fas fa-users"></i>
+              </a>
+            </div>
+            <div class="comment">
+              <a href="#">
+                <i class="fas fa-heart"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-comments"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog-text">
+            <h3>Blog Title Here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium quas velit. Consequatur, sed reprehenderit?</p>
+            <a href="blog_inner.html" class="btn primary_btn btn-sm">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="single-blog">
+          <div class="blog-time">
+            <img src="/images/blog/blog-three.jpg" alt="blog1">
+            <a href="#">9 March</a>
+          </div>
+          <div class="blog-info">
+            <div class="admin">
+              <a href="#" id="">
+                <i class="fas fa-users"></i>
+              </a>
+            </div>
+            <div class="comment">
+              <a href="#">
+                <i class="fas fa-heart"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-comments"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog-text">
+            <h3>Blog Title Here</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium quas velit. Consequatur, sed reprehenderit?</p>
+            <a href="blog_inner.html" class="btn primary_btn btn-sm">Read more...</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- ===//end of Blog section === -->
+
+
+<!-- === counter section start === -->
+<section id="counter" class="text-light abt-counter">
+  <div class="container">
+    <div class="row mb-md-5 mb-4">
+      <div class="col">
+        <div class="s-heading text-center">
+          <h2 class="">Title Goes Here</h2>
+        </div>
+      </div>
+    </div>
+    <!-- Countdown Area -->
+    <div class="row counter-row">
+      <div class="col-md-3 col-6">
+        <div class="counter-box shadow-sm">
+          <i class="fa fa-briefcase"></i>
+          <p class="count first">1,234</p>
+          <span></span>
+          <p>Title</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="counter-box shadow-sm">
+          <i class="far fa-smile-wink"></i>
+          <p class="count second">1,236</p>
+          <span></span>
+          <p>Title</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="counter-box shadow-sm">
+          <i class="fa fa-coffee"></i>
+          <p class="count third">1,234</p>
+          <span class=""></span>
+          <p>Title</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="counter-box shadow-sm">
+          <i class="fab fa-node-js"></i>
+          <p class="count fourth">1,234</p>
+          <span></span>
+          <p>Title</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+</section>
+<!-- ===//end of counter section === -->
+
+<!-- === newslatter section start === -->
+<section id="email">
+  <div class="container">
+    <div class="row mb-md-5 mb-4">
+      <div class="col-md-6 m-auto">
+        <div class="s-heading text-center">
+          <h2 class="">Title Goes Here</h2>
+
+          <p>Sign Up With Your Mail To Get Latest Update Of Your Service</p> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Email Form will go here -->
+    <div class="portable-form">
+      <form class="form">
+        <div class="form-group overlay-btn">
+          <input type="email" class="form-control input-rounded" id="email" placeholder="Enter Your Email">
+          <a href="#">
+            <button type="submit" class="btn-rounded-custom btn">Get Started</button>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- === newslatter section end === -->
+
+<!-- === footer section start === -->
+<footer id="footer-bg" class="position-relative">
+  <div class="container">
+    <div class="row top-footer">
+      <div class="col-md-5 mb-md-0 mb-4">
+       <div class="row">
+         <div class="brand-logo col-12 mb-3"><img src="images/logo-white.png" alt="" class="w-50"></div>
+         <div class="lang col-12">
+           <div class="dropdown d-flex align-items-center">
+            <a class="dropdown-toggle text-white" type="button" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="icon"><i class="far fa-globe"></i></span>
+              English - US (International)
+            </a>
+            <div class="dropdown-menu" aria-labelledby="language">
+              <a class="dropdown-item" href="#"> English - US (International)</a>
+              <a class="dropdown-item" href="#">Bangla</a>
+            </div>
+          </div>
+
+         </div>
+         <div class="col-12 support">
+           <a href="#" class="text-white d-flex align-items-center">
+             <span class="support-icon"><i class="fas fa-question-circle"></i></span>
+             Help & Support
+           </a>
+         </div>
+       </div>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-4">
+        <h5 class="f-title">Title</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="#" class="links">Categories</a></li>
+            <li><a href="#" class="links">Projects</a></li>
+            <li><a href="#" class="links">Contests</a></li>
+            <li><a href="#" class="links">Freelancers</a></li>
+            <li><a href="#" class="links">Enterprise</a></li>
+            <li><a href="#" class="links">Preferred Freelancer Program</a></li>
+            <li><a href="#" class="links">Project Management</a></li>
+            <li><a href="#" class="links">Local Jobs</a></li>
+            <li><a href="#" class="links">Showcase</a></li>
+            <li><a href="#" class="links">Api for Developers</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-4">
+        <h5 class="f-title">About</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="#" class="links">About Us</a></li>
+            <li><a href="#" class="links">How it works</a></li>
+            <li><a href="#" class="links">security</a></li>
+            <li><a href="#" class="links">investor</a></li>
+            <li><a href="#" class="links">siteMap</a></li>
+            <li><a href="#" class="links">Quotes</a></li>
+            <li><a href="#" class="links">News</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-4">
+        <h5 class="f-title">Terms</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="privacy_policy.html" class="links">Privacy Policy</a></li>
+            <li><a href="terms_condition.html" class="links">Terms & Conditions</a></li>
+            <li><a href="faq.html" class="links">Faq</a></li>
+            <li><a href="#" class="links">Code of Conduct</a></li>
+            <li><a href="#" class="links">Fees and Charges</a></li>
+          </ul>
+          <ul class="social-links d-flex justify-content-md-start justify-content-center mt-md-2 mt-4">
+            <li><a href="#" class="s-links"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Bootom Footer -->
+    <div class="row mt-md-5 mt-4 bottom-footer">
+      <div class="col-md-3">
+        <div class="reg-content d-flex">
+          <div class="reg-number mr-2">44583</div>
+            <span class="reg-txt">Registered Users</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="post-content d-flex">
+          <div class="post-number mr-2">44583</div>
+            <span class="post-txt">Registered Users</span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae corrupti rem veritatis, error quae.</p>
+        <div class="copyrig">
+        <p>Copyright © 2020 codespone Limited (ACN 142 189 759)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ===//end of footer section === -->
+
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<!-- <script src="js/typed.min.js"></script> -->
+<script src="js/parallax.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+  </script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

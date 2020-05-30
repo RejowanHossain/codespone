@@ -1,0 +1,42 @@
+
+
+%abt_bnr{
+  @include grid(grid,center,null);
+  background: url("../images/About/bg_1.jpg") center center/cover no-repeat;
+  min-height: 350px;
+  position: relative;
+
+  @include mobile {
+    min-height: 250px;
+  }
+}
+
+#About_banner{
+  @extend %abt_bnr;
+}
+
+
+#our_goal{
+  @include section(80px,null,null);
+  
+  @include  mobile {
+    padding: 40px 0!important;
+    iframe {
+      max-height: 250px;
+    }
+  }
+  .goal_content{
+    
+    .goal_content_details {
+      text-align: justify;
+      padding: 40px 0;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color:color(text_dark);
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,53 @@
+
+
+
+@function color($color-name) {
+  @return 
+  map-get($map: $colors, $key: $color-name);
+};
+
+// @function fonts($font_name){
+//   @return map-get($map: $fonts_family, $key: $font_name);
+// }
+
+@mixin section($pad_tb,$pad_lr,$bg) {
+  padding-top: $pad_tb;
+  padding-bottom: $pad_tb;
+  padding-left: $pad_lr;
+  padding-right: $pad_lr;
+  background-color: $bg;
+}
+
+
+@mixin grid($display,$align,$justify) {
+  display: $display;
+  align-items: $align;
+  justify-content: $justify;
+}
+// media query
+
+$desktop_lg: 1200px;
+
+
+@mixin desktop {
+  @media (min-width: #{$desktop_lg}) {
+    @content;
+  }
+} 
+
+// Media query for mobile divice
+@mixin mobile {
+  @media (max-width: 575px){
+    @content;
+  }
+}
+
+// Media query for Medium divice
+@mixin medium_device {
+  @media (min-width: 576px) and (max-width: 1199px){
+    @content;
+  }
+}
+
+
+

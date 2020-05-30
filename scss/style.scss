@@ -1,0 +1,65 @@
+@import './config';
+
+@import './basic';
+/* Fonts start here*/
+// @import "./fonts";
+/* Fonts End Here*/
+/* Colors */
+@import "./color";
+/* Basic Css Start Here*/
+// @import "./basic";
+/* Basic Css End Here*/
+
+/* common css start here */
+@import "./common";
+/* common css End here */
+;
+/*Home css start here */
+@import"./index";
+/*// End of Home css start here */
+
+
+/* About Section start here */
+@import"./about_main";
+/* About Section End here */
+
+
+
+/* About Section start here */
+@import"./_service_single";
+/* About Section End here */
+
+
+/* Template page start here */
+@import "./template";
+/* Template page End here */
+
+/* blog start here */
+@import "./blog";
+/* blog End here */
+
+
+
+/* team start here */
+@import'./team';
+/* team End here */
+
+/* contact start here */
+@import './contact';
+/* contact End here */
+
+/* faq start here */
+@import './faq';
+/* faq End here */
+
+/* privacy_policy start here */
+@import './privacy_policy';
+/* privacy_policy End here */
+
+/* terms_condition start here */
+@import './terms_condition';
+/* terms_condition End here */
+
+
+/* ? start here */
+/* ? End here */

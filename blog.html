@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>codespone</title>
+  <link rel='shortcut icon' href='images/logo' type='image/x-icon'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/parallax.js"></script>
+  <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+  <script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+
+<!-- === Desktop header section start === -->
+<header class="d-lg-block d-none header shadow-sm w-100">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="codespone logo" class="img-fluid dark-logo d-none">
+      <img src="images/logo-white.png" alt="codespone logo" class="img-fluid white-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="template.html">Templates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="s-link">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </nav>
+
+</header>
+<!-- ===//end of Desktop header section === -->
+
+
+<!--=== Mobile header start ===-->
+
+<div id="sideNav">
+  <div class="d-flex justify-content-between align-items-center">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-reply"></i></a>
+
+    <a href="#" class="btn login-btn">Login</a>
+  </div>
+  <nav>
+    <ul class="p-0" id="mainSideNav">
+      <li class="active nav-li">
+        <a href="index.html"><i class="icon-home icons"></i> Home</a>
+      </li>
+      <li class="nav-li">
+        <a href="about.html"><i class="icon-user-following icons"></i> About Us</a>
+      </li>
+      <li class="nav-li">
+        <a href="index.html#service"><i class="icon-diamond icons"></i>Service</a>
+      </li>
+      <li class="nav-li">
+        <a href="template.html"><i class="icon-grid icons"></i>Free Templates</a>
+      </li>
+      <li class="nav-li">
+        <a href="blog.html"><i class="icon-book-open icons"></i>Blog</a>
+      </li>
+      <li class="nav-li">
+        <a href="contact.html"><i class="icon-bubbles icons"></i>Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="s-link">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <p class="copyright">Copyright © 2020 Codespone Company All rights reserved.</p>
+
+</div>
+
+<header class="d-lg-none d-block mobile-header shadow-sm">
+  <div class="navbar">
+    <a href="index.html">
+      <img src="images/logo.png" class="logo" alt="logo" class="img-fluid">
+    </a>
+    <button class="openbtn btn" onclick="openNav()"><i class="icon-list icons"></i></button> 
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("sideNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("sideNav").style.width = "0";
+    }
+  </script>
+  
+</header>
+<!--=== Mobile header end ===-->
+
+
+<!-- === blog Banner section start === -->
+<section id="our-blog" class="need_margin padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8" id="blog">
+        <article class="blog-item heading_space">
+            <div class="image">
+              <img src="images/blog/blog_1.jpg" alt="blog" class="border_radius">
+            </div>
+            <h3 class="bottom10 top30"> 
+              <a href="blog_inner.html">Springtime Color Schemes to Try at Home</a>
+            </h3>
+            <ul class="commment">
+                <li><a href="#."><i class="fas fa-calendar"></i> Jan 8</a></li>
+                <li><a href="#."><i class="fas fa-comments"></i> 19</a></li>
+                <li><a href="#."><i class="fas fa-user"></i> Emerson</a></li>
+            </ul>
+            <p class="top15">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              <br><br>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+            </p>
+            <a class="primary_btn my-4" href="blog_inner.html">Read More</a>
+        </article>
+        <article class="blog-item heading_space">
+            <div class="image">
+              <img src="images/blog/blog_1.jpg" alt="blog" class="border_radius">
+            </div>
+            <h3 class="bottom10 top30"> 
+              <a href="blog_inner.html">Springtime Color Schemes to Try at Home</a>
+            </h3>
+            <ul class="commment">
+                <li><a href="#."><i class="fas fa-calendar"></i> Jan 8</a></li>
+                <li><a href="#."><i class="fas fa-comments"></i> 19</a></li>
+                <li><a href="#."><i class="fas fa-user"></i> Emerson</a></li>
+            </ul>
+            <p class="top15">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              <br><br>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+            </p>
+            <a class="primary_btn my-4" href="blog_inner.html">Read More</a>
+        </article>
+        <article class="blog-item heading_space">
+            <div class="image">
+              <img src="images/blog/blog_1.jpg" alt="blog" class="border_radius">
+            </div>
+            <h3 class="bottom10 top30"> 
+              <a href="blog_inner.html">Springtime Color Schemes to Try at Home</a>
+            </h3>
+            <ul class="commment">
+                <li><a href="#."><i class="fas fa-calendar"></i> Jan 8</a></li>
+                <li><a href="#."><i class="fas fa-comments"></i> 19</a></li>
+                <li><a href="#."><i class="fas fa-user"></i> Emerson</a></li>
+            </ul>
+            <p class="top15">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              <br><br>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+            </p>
+            <a class="primary_btn my-4" href="blog_inner.html">Read More</a>
+        </article>
+
+        <div id="pagination">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link active" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+        <div class="col-lg-4">
+          <div class="search-sticky">
+              <div class="make-me-sticky">
+            <aside class="sidebar whitebox mt-5 mt-md-0">
+                <div class="widget shadow heading_space text-center text-md-left">
+                    <h4 class="text-capitalize darkcolor bottom20">search By Keyword</h4>
+                    <form class="widget_search">
+                        <div class="input-group">
+                            <label for="searchInput" class="d-none"></label>
+                            <input type="search" class="form-control" placeholder="search..." required="" id="searchInput">
+                            <button type="submit" class="input-group-addon"><i class="fa fa-search"></i> </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="widget heading_space shadow">
+                  <h4 class="text-capitalize darkcolor bottom20 text-center text-md-left">Recent Post</h4>
+                  <div class="single_post d-flex align-items-center bottom15">
+                    <a href="#." class="post"><img src="images/blog/Inner Blog/comments/blog-recent-1.jpg" alt="post image"></a>
+                    <div class="text">
+                        <a href="#.">About Invesment Management</a>
+                        <span>September 22,2019</span>
+                    </div>
+                  </div>
+                  <div class="single_post d-flex align-items-center bottom15">
+                    <a href="#." class="post"><img src="images/blog/Inner Blog/comments/blog-recent-1.jpg" alt="post image"></a>
+                    <div class="text">
+                        <a href="#.">About Invesment Management</a>
+                        <span>September 22,2019</span>
+                    </div>
+                  </div>
+                  <div class="single_post d-flex align-items-center bottom15">
+                    <a href="#." class="post"><img src="images/blog/Inner Blog/comments/blog-recent-1.jpg" alt="post image"></a>
+                    <div class="text">
+                        <a href="#.">About Invesment Management</a>
+                        <span>September 22,2019</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget shadow heading_space">
+                    <h4 class="text-capitalize darkcolor bottom20">Categories</h4>
+                    <ul class="webcats">
+                        <li><a href="#.">web design <span>(20)</span></a></li>
+                        <li><a href="#.">network <span>(05)</span></a></li>
+                        <li><a href="#.">marketing <span>(11)</span></a></li>
+                        <li><a href="#.">event (<span>(20)</span></a></li>
+                        <li><a href="#.">website <span>(07)</span></a></li>
+                        <li><a href="#.">themeforest<span>(19)</span></a></li>
+                    </ul>
+                </div>
+                <div class="widget shadow heading_space text-center text-md-left">
+                    <h4 class="text-capitalize darkcolor bottom20">Tags</h4>
+                    <ul class="webtags">
+                        <li><a href="#.">web design</a></li>
+                        <li><a href="#.">network</a></li>
+                        <li><a href="#.">marketing</a></li>
+                        <li><a href="#.">posts</a></li>
+                        <li><a href="#.">event</a></li>
+                        <li><a href="#.">website</a></li>
+                        <li><a href="#.">social</a></li>
+                        <li><a href="#.">themeforest</a></li>
+                        <li><a href="#.">creative</a></li>
+                        <li><a href="#.">best solutions</a></li>
+                    </ul>
+                </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- === // End of blog Banner section start === -->
+
+<!-- === ?? section start === -->
+<!-- === // End of ?? section start === -->
+
+<!-- === ?? section start === -->
+<!-- === // End of ?? section start === -->
+
+<!-- === ?? section start === -->
+<!-- === // End of ?? section start === -->
+
+
+
+
+
+<!-- === footer section start === -->
+<footer id="footer-bg" class="position-relative">
+  <div class="container">
+    <div class="row top-footer">
+      <div class="col-md-5 mb-md-0 mb-4">
+       <div class="row">
+         <div class="brand-logo col-12 mb-3"><img src="images/logo-white.png" alt="" class="w-50"></div>
+         <div class="lang col-12">
+           <div class="dropdown d-flex align-items-center">
+            <a class="dropdown-toggle text-white" type="button" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="icon"><i class="far fa-globe"></i></span>
+              English - US (International)
+            </a>
+            <div class="dropdown-menu" aria-labelledby="language">
+              <a class="dropdown-item" href="#"> English - US (International)</a>
+              <a class="dropdown-item" href="#">Bangla</a>
+            </div>
+          </div>
+
+         </div>
+         <div class="col-12 support">
+           <a href="#" class="text-white d-flex align-items-center">
+             <span class="support-icon"><i class="fas fa-question-circle"></i></span>
+             Help & Support
+           </a>
+         </div>
+       </div>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-4">
+        <h5 class="f-title">Title</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="#" class="links">Categories</a></li>
+            <li><a href="#" class="links">Projects</a></li>
+            <li><a href="#" class="links">Contests</a></li>
+            <li><a href="#" class="links">Freelancers</a></li>
+            <li><a href="#" class="links">Enterprise</a></li>
+            <li><a href="#" class="links">Preferred Freelancer Program</a></li>
+            <li><a href="#" class="links">Project Management</a></li>
+            <li><a href="#" class="links">Local Jobs</a></li>
+            <li><a href="#" class="links">Showcase</a></li>
+            <li><a href="#" class="links">Api for Developers</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-4">
+        <h5 class="f-title">About</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="#" class="links">About Us</a></li>
+            <li><a href="#" class="links">How it works</a></li>
+            <li><a href="#" class="links">security</a></li>
+            <li><a href="#" class="links">investor</a></li>
+            <li><a href="#" class="links">siteMap</a></li>
+            <li><a href="#" class="links">Quotes</a></li>
+            <li><a href="#" class="links">News</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-4">
+        <h5 class="f-title">Terms</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="privacy_policy.html" class="links">Privacy Policy</a></li>
+            <li><a href="terms_condition.html" class="links">Terms & Conditions</a></li>
+            <li><a href="faq.html" class="links">Faq</a></li>
+            <li><a href="#" class="links">Code of Conduct</a></li>
+            <li><a href="#" class="links">Fees and Charges</a></li>
+          </ul>
+          <ul class="social-links d-flex justify-content-md-start justify-content-center mt-md-2 mt-4">
+            <li><a href="#" class="s-links"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Bootom Footer -->
+    <div class="row mt-md-5 mt-4 bottom-footer">
+      <div class="col-md-3">
+        <div class="reg-content d-flex">
+          <div class="reg-number mr-2">44583</div>
+            <span class="reg-txt">Registered Users</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="post-content d-flex">
+          <div class="post-number mr-2">44583</div>
+            <span class="post-txt">Registered Users</span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae corrupti rem veritatis, error quae.</p>
+        <div class="copyrig">
+        <p>Copyright © 2020 codespone Limited (ACN 142 189 759)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ===//end of footer section === -->
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<!-- <script src="js/typed.min.js"></script> -->
+<script src="js/parallax.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+  </script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

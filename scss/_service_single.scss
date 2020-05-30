@@ -1,0 +1,126 @@
+%service_bnr{
+  background: url("../images/service/service_banner.jpg") center center/cover no-repeat;
+  min-height: 350px;
+  position: relative;
+  display: grid;
+  align-items: center;
+  z-index: 1;
+
+  @include mobile {
+    min-height: 250px;
+  }
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+#Service_banner{
+  @extend %service_bnr;
+}
+
+
+#working_steps {
+  background: #FDFAF6;
+  padding: 80px 0 50px 0;
+
+  @include mobile {
+    padding: 40px 0;
+  }
+  .steps-box {
+    background: #fff;
+    border: 2px solid transparent;
+    padding: 30px 0px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-bottom: 30px;
+
+    @include mobile {
+      padding: 15px  0;
+    }
+
+    i {
+      color: #777777;
+      font-size: 36px;
+    }
+
+    .steps {
+      font-size: 30px;
+      font-weight: bold;
+      padding: 25px 0 15px 0;
+
+      @include mobile {
+        font-size: 16px;
+        padding: 15px 0 10px 0;
+      }
+    }
+
+    .steps.first {
+      color: #15bcec;
+    }
+    .steps.second {
+      color: #f5a416;
+    }
+    .steps.third {
+      color: #00c99c;
+    }
+    .steps.fourth {
+      color: #f12699;
+    }
+
+    span {
+      width: 80px;
+      background: #777;
+      height: 5px;
+      display: block;
+      margin: 10px auto;
+
+      @include mobile {
+        height: 3px;
+      }
+    }
+
+    p {
+      color: #777;
+    }
+  }
+}
+
+#our_goal{
+  @include section(80px,null,null);
+  .goal_content{
+    
+    .goal_content_details {
+      text-align: justify;
+      padding: 40px 0;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color:color(text_dark);
+    padding-bottom: 20px;
+  }
+}
+
+#service.related_service {
+  padding-top: 0;
+}

@@ -1,0 +1,69 @@
+%pricacy_policy_bnr{
+  background: url("../images/service/service_banner.jpg") center center/cover no-repeat;
+  min-height: 350px;
+  position: relative;
+  display: grid;
+  align-items: center;
+  z-index: 1;
+
+  @include mobile {
+    min-height: 250px;
+  }
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+#Pricacy_policy_banner{
+  @extend %pricacy_policy_bnr;
+}
+
+
+.main-privacy {
+  h2 {
+    font-size: 22px;
+    color: color(text_dark);
+    font-weight: 800;
+    margin:  0 0 25px 0;
+    opacity: 0.8;
+  }
+    
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .blue-box {
+    width: 20px;
+    height: 20px;
+    background: color(primary);
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-right: 20px;
+    margin-right: 20px;
+    opacity: 0.5;
+    margin-top: 2px;
+
+    @include mobile {
+      margin-right: 10px;
+    }
+  }
+  
+  .link {
+    color: #2794d7;
+    font-size: 16px;
+  }
+  
+  .bg-transparent {
+    background: transparent !important;
+  }
+
+}

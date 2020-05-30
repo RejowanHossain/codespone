@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>codespone</title>
+  <link rel='shortcut icon' href='images/logo' type='image/x-icon'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/simple-line-icons.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/parallax.js"></script>
+</head>
+<body>
+
+
+<!-- === Desktop header section start === -->
+<header class="d-lg-block d-none header shadow-sm w-100">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="codespone logo" class="img-fluid dark-logo d-none">
+      <img src="images/logo-white.png" alt="codespone logo" class="img-fluid white-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="template.html">Templates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="s-link">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </nav>
+
+</header>
+<!-- ===//end of Desktop header section === -->
+
+
+<!--=== Mobile header start ===-->
+
+<div id="sideNav">
+  <div class="d-flex justify-content-between align-items-center">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-reply"></i></a>
+
+    <a href="#" class="btn login-btn">Login</a>
+  </div>
+  <nav>
+    <ul class="p-0" id="mainSideNav">
+      <li class="active nav-li">
+        <a href="index.html"><i class="icon-home icons"></i> Home</a>
+      </li>
+      <li class="nav-li">
+        <a href="about.html"><i class="icon-user-following icons"></i> About Us</a>
+      </li>
+      <li class="nav-li">
+        <a href="index.html#service"><i class="icon-diamond icons"></i>Service</a>
+      </li>
+      <li class="nav-li">
+        <a href="template.html"><i class="icon-grid icons"></i>Free Templates</a>
+      </li>
+      <li class="nav-li">
+        <a href="blog.html"><i class="icon-book-open icons"></i>Blog</a>
+      </li>
+      <li class="nav-li">
+        <a href="contact.html"><i class="icon-bubbles icons"></i>Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="s-link">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <p class="copyright">Copyright © 2020 Codespone Company All rights reserved.</p>
+
+</div>
+
+<header class="d-lg-none d-block mobile-header shadow-sm">
+  <div class="navbar">
+    <a href="index.html">
+      <img src="images/logo.png" class="logo" alt="logo" class="img-fluid">
+    </a>
+    <button class="openbtn btn" onclick="openNav()"><i class="icon-list icons"></i></button> 
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("sideNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("sideNav").style.width = "0";
+    }
+  </script>
+  
+</header>
+<!--=== Mobile header end ===-->
+
+<!-- === Service Banner section start === -->
+<section id="Service_banner" class="need_margin">
+ <div class="container">
+  <div class="row">
+    <div class="col-md-6 m-auto">
+      <div class="s-heading text-center">
+        <h2 class="text-white">Our Services</h2>
+        <span class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolores?</span>
+      </div>
+    </div>
+  </div>
+ </div> 
+</section>
+<!-- ===// End of  Service Banner section start === -->
+
+
+<!-- === working steps section start === -->
+<section id="working_steps" class="text-light abt-counter">
+  <div class="container">
+    <div class="row mb-mb-5 mb-4">
+      <div class="col">
+        <div class="s-heading text-center">
+          <h2 class="">Web Design Process</h2>
+        </div>
+      </div>
+    </div>
+    <!-- Countdown Area -->
+    <div class="row counter-row">
+      <div class="col-md-3 col-6">
+        <div class="steps-box shadow-sm">
+          <i class="fa fa-briefcase"></i>
+          <h5 class="steps first">Idea</h5>
+          <span></span>
+          <p>Title</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="steps-box shadow-sm">
+          <i class="far fa-smile-wink"></i>
+          <h5 class="steps second">Design</h5>
+          <span></span>
+          <p>Title</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="steps-box shadow-sm">
+          <i class="fa fa-coffee"></i>
+          <h5 class="steps third">Development</h5>
+          <span></span>
+          <p>Title</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="steps-box shadow-sm">
+          <i class="fab fa-node-js"></i>
+          <h5 class="steps fourth">Testing</h5>
+          <span></span>
+          <p>Title</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- ===//end of working steps section === -->
+
+<!-- === Our Goal section start === -->
+<section id="our_goal">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+        <div class="goal_content">
+          <div class="goal_video">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/IUN664s7N-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="goal_content_details light">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quaerat atque nisi vitae ratione unde distinctio quisquam architecto quas tempore. Iure nisi commodi ipsum ratione sed ab quibusdam delectus sit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel sint atque ut iste? Iusto minima quia magnam at fugiat rem error asperiores suscipit, ratione reiciendis quidem ad voluptates illum. Atque.
+
+              <br> <br>
+              
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quaerat atque nisi vitae ratione unde distinctio quisquam architecto quas tempore.
+            <br> <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quaerat atque nisi vitae ratione unde distinctio quisquam architecto quas tempore. Iure nisi commodi ipsum ratione sed ab quibusdam delectus sit!
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 mb-md-0 mb-4">
+       <div class="vission">
+        <h3>Vission</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, omnis aperiam consequuntur veritatis odit itaque distinctio numquam earum, veniam tenetur, voluptate autem quas tempore laudantium blanditiis consectetur impedit id soluta.</p>
+       </div>
+      </div>
+      <div class="col-12 col-md-6">
+       <div class="mission">
+        <h3>Mission</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, omnis aperiam consequuntur veritatis odit itaque distinctio numquam earum, veniam tenetur, voluptate autem quas tempore laudantium blanditiis consectetur impedit id soluta.</p>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===// End of  Our Goal section start === -->
+
+<!-- === related service section start === -->
+<section id="service" class="related_service">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-6 m-auto">
+        <div class="s-heading text-center">
+          <h2 class="">Related Service</h2>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolores?</span>
+        </div>
+      </div>
+    </div>
+    <!-- service box goes here -->
+    <div class="row service-boxes">
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <a href="service_single.html">
+          <div class="service-box shadow-sm">
+            <h2>Title Here</h2>
+            <div class="service_icon">
+              <i class="far fa-address-book"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ipsum.Possimus veniam officiis ipsa sit laudantium eveniet numquam fugiat sunt.</p>
+          </div>
+        </a>
+      </div>
+   
+  </div>
+</section>
+<!-- ===//end of related service section === -->
+
+
+
+
+<!-- === footer section start === -->
+<footer id="footer-bg" class="position-relative">
+  <div class="container">
+    <div class="row top-footer">
+      <div class="col-md-5 mb-md-0 mb-4">
+       <div class="row">
+         <div class="brand-logo col-12 mb-3"><img src="images/logo-white.png" alt="" class="w-50"></div>
+         <div class="lang col-12">
+           <div class="dropdown d-flex align-items-center">
+            <a class="dropdown-toggle text-white" type="button" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="icon"><i class="far fa-globe"></i></span>
+              English - US (International)
+            </a>
+            <div class="dropdown-menu" aria-labelledby="language">
+              <a class="dropdown-item" href="#"> English - US (International)</a>
+              <a class="dropdown-item" href="#">Bangla</a>
+            </div>
+          </div>
+
+         </div>
+         <div class="col-12 support">
+           <a href="#" class="text-white d-flex align-items-center">
+             <span class="support-icon"><i class="fas fa-question-circle"></i></span>
+             Help & Support
+           </a>
+         </div>
+       </div>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-4">
+        <h5 class="f-title">Title</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="#" class="links">Categories</a></li>
+            <li><a href="#" class="links">Projects</a></li>
+            <li><a href="#" class="links">Contests</a></li>
+            <li><a href="#" class="links">Freelancers</a></li>
+            <li><a href="#" class="links">Enterprise</a></li>
+            <li><a href="#" class="links">Preferred Freelancer Program</a></li>
+            <li><a href="#" class="links">Project Management</a></li>
+            <li><a href="#" class="links">Local Jobs</a></li>
+            <li><a href="#" class="links">Showcase</a></li>
+            <li><a href="#" class="links">Api for Developers</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-4">
+        <h5 class="f-title">About</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="#" class="links">About Us</a></li>
+            <li><a href="#" class="links">How it works</a></li>
+            <li><a href="#" class="links">security</a></li>
+            <li><a href="#" class="links">investor</a></li>
+            <li><a href="#" class="links">siteMap</a></li>
+            <li><a href="#" class="links">Quotes</a></li>
+            <li><a href="#" class="links">News</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-4">
+        <h5 class="f-title">Terms</h5>
+        <div class="title-content">
+          <ul class="title-content-links">
+            <li><a href="privacy_policy.html" class="links">Privacy Policy</a></li>
+            <li><a href="terms_condition.html" class="links">Terms & Conditions</a></li>
+            <li><a href="faq.html" class="links">Faq</a></li>
+            <li><a href="#" class="links">Code of Conduct</a></li>
+            <li><a href="#" class="links">Fees and Charges</a></li>
+          </ul>
+          <ul class="social-links d-flex justify-content-md-start justify-content-center mt-md-2 mt-4">
+            <li><a href="#" class="s-links"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="s-links"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Bootom Footer -->
+    <div class="row mt-md-5 mt-4 bottom-footer">
+      <div class="col-md-3">
+        <div class="reg-content d-flex">
+          <div class="reg-number mr-2">44583</div>
+            <span class="reg-txt">Registered Users</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="post-content d-flex">
+          <div class="post-number mr-2">44583</div>
+            <span class="post-txt">Registered Users</span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae corrupti rem veritatis, error quae.</p>
+        <div class="copyrig">
+        <p>Copyright © 2020 codespone Limited (ACN 142 189 759)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ===//end of footer section === -->
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<!-- <script src="js/typed.min.js"></script> -->
+<script src="js/parallax.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+  </script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
